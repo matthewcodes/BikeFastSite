@@ -1,0 +1,22 @@
+{
+  "name": "BikeFastSite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matthewcodes/BikeFastSite",
+  "authors": [
+    "Matthew Wilson <matt@mattcodes.co.uk>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "animate.css": "~3.3.0",
+    "wow.js": "~1.1.2"
+  }
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'NexaBold';
+  src: url('../fonts/Nexa Bold.otf');
+}
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('../fonts/Nexa Light.otf');
+}
+
+html{
+  height: 100%;
+}
+body {
+  /*min-height: 100%;*/
+  width: 100%;
+}
+
+body {
+  background-image: url('../img/background');
+  /*background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-size: cover;*/
+
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #323232;
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+
+.main-content {
+  margin-top: 2%;
+  height: 68%;
+}
+
+.footer {
+  margin-top: 2%;
+  height: 28%;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.app-icon {
+  text-align: right;
+}
+
+.app-name {
+  font-family: 'NexaBold';
+  color: white;
+  text-align: right;
+}
+
+.app-title {
+  font-family: 'NexaLight';
+  color: white;
+  text-align: right;
+}
+
+.social {
+  font-family: 'NexaLight';
+  color: white;
+  text-align: right;
+}
+
+.thin-white {
+  font-family: 'NexaLight';
+  color: white;
+}
+
+.bold-white {
+  font-family: 'NexaBold';
+  color: white;
+}
+
+.thin-blue {
+  font-family: 'NexaLight';
+  color: #8fd3d1;
+}
