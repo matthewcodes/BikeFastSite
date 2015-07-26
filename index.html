@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bike Fast</title>
 
@@ -20,52 +20,101 @@
   </head>
   <body>
 
-    <div class="container main-content">
+    <div class="container main-content hidden-xs">
 
       <div class="row">
-        <div class="col-sm-5">
-          <div class="app-icon clearfix">
-            <img class="img-responsive pull-right" src="img/icon.png"/>
-          </div>
-          <div class="app-name">
-            <h1>Bike Fast</h1>
-          </div>
-          <div class="app-title">
-            <h2>Find your bike fast</h2>
-          </div>
-          <div class="app-download clearfix">
-            <img class="img-responsive pull-right" src="img/download.png"/>
-          </div>
-          <div class="social">
-            <h2>Join us!</h1>
+        <div class="col-xs-6">
+          <div class="details">
+            <div class="app-icon clearfix">
+              <img class="img-responsive pull-right" src="img/icon.png"/>
+            </div>
+            <div class="app-name">
+              <h2>Bike Fast</h2>
+            </div>
+            <div class="app-title">
+              <h3>Find your bike fast</h3>
+            </div>
+            <div class="app-download clearfix">
+              <img class="img-responsive pull-right" src="img/download.png"/>
+            </div>
+            <div class="social">
+              <h3>Join us!</h3>
               <div class="clear-fix">
                 <a href="http://www.facebook.com" class="pull-right"><img class="img-responsive" src="img/facebook.png"></a>
                 <a href="http://www.twitter.com" class="pull-right"><img class="img-responsive" src="img/twitter.png"></a>
               </div>
+            </div>
           </div>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-          <img class="img-responsive center-block" src="img/phone.png"/>
+        <div class="col-xs-6">
+          <div class="phone">
+            <img class="img-responsive" src="img/phone.png"/>
+          </div>
         </div>
-        <div class="col-sm-1"></div>
       </div>
 
     </div>
 
-    <div class="container footer">
+    <div class="container footer hidden-xs">
       <div class="row">
-        <div class="col-sm-5">
-          <p><span class="thin-blue">Created by:</span> <span class="bold-white">Matthew Wilson</span> <span class="thin-blue">&amp;</span> <span class="bold-white">David Henderson</span></p>
-          <p class="thin-white">COPYRIGHT &copy; BIKE FAST, 2015, ALL RIGHTS RESERVED.</p>
+        <div class="col-xs-6">
+          <div class="copyright">
+            <p><span class="thin-blue">Created by:</span> <span class="bold-white">Matthew Wilson</span> <span class="thin-blue">&amp;</span> <span class="bold-white">David Henderson</span></p>
+            <p class="thin-white">COPYRIGHT &copy; BIKE FAST, 2015, ALL RIGHTS RESERVED.</p>
+          </div>
         </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-5">
-            <img class="center-block" src="img/mw.png">
-            <img class="center-block" src="img/dhd.png">
+        <div class="col-xs-6">
+          <div class="clear-fix logos">
+            <img class="pull-left logo" src="img/mw-mobile.png">
+            <img class="pull-left logo" src="img/dhd.png">
+          </div>
         </div>
-        <div class="col-sm-1"></div>
       </div>
+    </div>
+
+    <div class="container mobile-main-content visible-xs-block">
+
+      <img class="img-responsive center-block" src="img/icon.png"/>
+
+      <div class="mobile-app-name">
+        <h2>Bike Fast</h2>
+      </div>
+
+      <div class="mobile-app-title">
+        <h3>Find your bike fast</h3>
+      </div>
+
+      <img class="img-responsive center-block" src="img/download.png"/>
+
+      <div class="mobile-social">
+        <h3>Join us!</h3>
+        <div class="row">
+          <div class="col-xs-4"></div>
+          <div class="col-xs-2 clearfix">
+            <a href="http://www.facebook.com"><img class="img-responsive pull-right" src="img/facebook.png"></a>
+          </div>
+          <div class="col-xs-2 clearfix">
+            <a href="http://www.twitter.com"><img class="img-responsive pull-left" src="img/twitter.png"></a>
+          </div>
+          <div class="col-xs-4"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container footer visible-xs-block">
+
+      <div class="row mobile-logos">
+        <div class="col-xs-6">
+          <img class="img-responsive center-block" src="img/mw-mobile.png">
+        </div>
+        <div class="col-xs-6">
+          <img class="img-responsive center-block" src="img/dhd.png">
+        </div>
+      </div>
+
+      <p class="thin-white text-center mobile-copyright">COPYRIGHT &copy; BIKE FAST, 2015, ALL RIGHTS RESERVED.</p>
+
     </div>
 
     <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->

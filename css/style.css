@@ -11,27 +11,28 @@
 html{
   height: 100%;
 }
-body {
-  /*min-height: 100%;*/
-  width: 100%;
-}
+
 
 body {
   background-image: url('../img/background');
-  /*background-position: bottom;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-clip: border-box;
-  background-size: cover;*/
+  background-size: cover;
 
-  background-attachment: scroll;
+  /*background-attachment: scroll;
   background-clip: border-box;
   background-color: #323232;
   background-origin: padding-box;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+  width: 100%;*/
+}
 
+.logo {
+  margin-right: 20px;
 }
 
 .main-content {
@@ -39,11 +40,40 @@ body {
   height: 68%;
 }
 
+.mobile-main-content {
+  margin-top: 5%;
+  height: 68%;
+}
+
 .footer {
   margin-top: 2%;
   height: 28%;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: right;
+}
+
+.details {
+  margin-right: 10px;
+}
+
+.copyright {
+  margin-right: 10px;
+}
+
+.logos {
+  margin-left: 10px;
+}
+
+.mobile-logos {
+  margin-top:5%;
+}
+
+.mobile-copyright {
+  margin-top: 5%;
+}
+
+.phone {
+  margin-left: 10px;
 }
 
 .app-icon {
@@ -56,16 +86,38 @@ body {
   text-align: right;
 }
 
+.mobile-app-name {
+  font-family: 'NexaBold';
+  color: white;
+  text-align: center;
+}
+
 .app-title {
   font-family: 'NexaLight';
   color: white;
   text-align: right;
+  margin-top: 10%;
+}
+
+.mobile-app-title {
+  font-family: 'NexaLight';
+  color: white;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .social {
   font-family: 'NexaLight';
   color: white;
   text-align: right;
+  margin-top: 10%;
+}
+
+.mobile-social {
+  font-family: 'NexaLight';
+  color: white;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .thin-white {
